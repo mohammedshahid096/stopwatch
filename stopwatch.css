@@ -1,0 +1,64 @@
+body{
+    background-color: rgba(26, 25, 25, 0.918);
+    
+    background-size: 100%;
+    
+}
+#container{
+    width: 50%;
+    height: 74.5%;
+    background-image: linear-gradient(to bottom right, rgba(0, 204, 255, 0.856),rgba(253, 59, 237, 0.815));
+    margin-top: 95px;
+    margin-left: 25%;
+    border-radius: 20px;
+}
+#watchheading{
+    padding-top: 10px;
+    font-size: 50px;
+    color: rgb(85, 60, 84);
+    text-align: center;
+    font-family: 'Irish Grover', cursive;
+    font-family: 'Permanent Marker', cursive
+}
+p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 9.8em;
+    left: 16em;
+    font-family: 'Courgette', cursive;
+    
+}
+#showtime{
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 195px;
+}
+button{
+   margin-top:20px;
+   margin-right: 15px;
+    font-size: 25px;
+    border-radius: 9px;
+    padding: 7px;
+    margin-left: 2px;
+
+}
+#startbutton:hover{
+background-color: aqua;
+}
+#stopbutton:hover{
+    background-color: rgb(223, 226, 43);
+}
+#restartbutton:hover{
+    background-color: rgb(221, 143, 41);
+}
+
+img{
+   position: absolute;
+   top: 175px;
+   left: 11.5em;
+   width: 140px;
+   height: 140px;
+}
